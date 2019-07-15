@@ -1,0 +1,31 @@
+#settings{
+  margin: 1em;
+  display: flex;
+  justify-content: space-between;
+  &-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-right: 10em;
+  }
+  &-button:hover {
+    background: #ccc;
+    color: white;
+  }
+  &-input {
+    width: 20%;
+  }
+}
+
+.settings-before {
+  font-size: 1.5em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.settings-message {
+  border: none;
+  background: none;
+  padding: .4em;
+  font-size: .8em;
+  border-bottom: 1px solid #ccc;
+}

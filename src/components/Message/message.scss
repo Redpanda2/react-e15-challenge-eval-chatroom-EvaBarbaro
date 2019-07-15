@@ -1,0 +1,15 @@
+#user {
+  background:#fff;
+  height:500px;
+  width:100%;
+  &-id {
+    margin-left: .7em;
+    margin-top: .5em;
+    font-weight: 700;
+  }
+  &-message {
+    margin-left: .7em;
+    margin-top: .2em;
+    font-weight: 400;
+  }
+}
